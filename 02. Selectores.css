@@ -1,0 +1,110 @@
+/*
+    ¿Cómo determina la prioridad de una regla CSS?
+    
+    ID = 100
+    Class = 10
+    Etiqueta = 1
+    !Important = 1000000
+*/
+
+
+/*
+    Selector universal * Sirve para agregar estilos a todos los elementos de la página. 
+    Normalmente se utiliza para hacer “reset” de estilos.
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/*
+    Selector etiqueta. Aplica estilos a todos los elementos de ese tipo (p, h1, header etc.)
+*/
+
+p {
+    color: red;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+}
+
+
+/* 
+    Selector id. Aplica estilos a un elemento único con ese Id, se recomienda hacer buen 
+    uso de este selector. 
+*/
+
+#verde {
+    color: green;
+}
+
+
+/* 
+    Selector clase. Aplica estilos a todos los elementos con esa clase (el que más vas a usar). 
+*/
+
+.verde {
+    color: green;
+}
+
+
+/* 
+    Selector anidado. Aplica estilos a un elementos descendientes de otros elementos (no necesario 
+    que sea hijo directo).  
+*/
+
+span {
+    color: black;
+}
+
+p span {
+    color: red;
+}
+
+
+/* 
+    Selector hijo>. Aplica estilos a los elementos que sean hijos directos de otros.  
+*/
+
+p>span {
+    color: red;
+}
+
+span {
+    color: black;
+}
+
+
+/* 
+    Selector adyacente+. Aplica estilos al elemento adyacente.  
+*/
+
+h2 {
+    color: black;
+}
+
+h2+h2 {
+    color: red;
+}
+
+
+/* 
+    Selector de atributo input[type=“number”]. Aplica estilos al elemento con el atributo 
+    especificado.  
+*/
+
+input[type='number'] {
+    border: black;
+}
+
+input[type='email'] {
+    border: red;
+}

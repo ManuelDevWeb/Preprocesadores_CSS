@@ -1,0 +1,13 @@
+Tanto HTML como CSS no han evolucionado de la mejor manera y aunque sirven 
+para proyectos pequeños, suelen se difíciles de mantener en proyectos grandes.
+
+Para solventar sus debilidades han surgido los preprocesadores como PUG para 
+HTML o Stylus, Less y Sass para CSS
+
+Un preprocesador es una herramienta que nos permite escribir pseudocódigo de 
+forma modular, más fácil de rehusar, leer, y mantener. pseudocódigo que después 
+será convertido a CSS o HTML estándar que el navegador entiende.
+
+Gracias a los preprocesadores podemos extender las características de CSS y 
+HTML al nivel de otros lenguajes de programación, permitiéndonos usar características 
+como variables, funciones y mixins.

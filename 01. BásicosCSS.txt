@@ -1,0 +1,15 @@
+CSS significa Cascading Style Sheets o Hojas de Estilo en cascada.
+
+Asignar reglas CSS a un documento HTML se puede hacer de varias formas:
+
+• Colocando las reglas en un documento *.css y relacionarlo al HTML usando
+  la etiqueta 
+• Colocando en el atributo style de cada elemento HTML las reglas para cada 
+  etiqueta
+• Colocando los estilos dentro de una etiqueta style dentro del head del 
+  documento.
+
+Como su nombre lo dice siempre lee en cascada de arriba hacia abajo 
+sobrescribiendo valores excepto los dados por el atributo style.
+
+Un estilo CSS está formado por: selector, declaración, propiedad y valor.
