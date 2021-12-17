@@ -1,0 +1,32 @@
+BEM es la metodología que vamos a usar a lo largo del curso. 
+
+El objetivo de BEM es dividir lógicamente las piezas de las que se compone 
+una web.
+
+BEM establece que debemos usar clases para nuestro selectores, clases que 
+se dividen en:
+
+• Bloques: Los bloques son nuestros contenedores más grandes que a su vez 
+  contienen elementos u otros bloques.
+• Elementos. Los elementos siempre forman parte de un bloque, normalmente 
+  son los botones, textos, imágenes etc.
+• Modificadores. Los modificadores se usan para establecer estilos diferentes 
+  a un mismo bloque o elemento.
+
+Ejemplo: 
+
+Bloque -> Menú de navegación
+Elemento -> Todos los botones de redes sociales en el menú de navegación
+Modificador -> Estilos diferentes a los botones de redes sociales
+
+Sintaxis: 
+
+.bloque{} -> .galeria{}
+.bloque_elemento{} -> galeria_foto{}
+.bloque--modificador{} -> galeria_foto--circular{}
+
+Ventajas:
+
+• Menos repeticiones
+• Independencia absoluta
+• Mejoría en la herencia múltiple

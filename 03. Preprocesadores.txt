@@ -10,4 +10,16 @@ será convertido a CSS o HTML estándar que el navegador entiende.
 
 Gracias a los preprocesadores podemos extender las características de CSS y 
 HTML al nivel de otros lenguajes de programación, permitiéndonos usar características 
-como variables, funciones y mixins.
+como:
+
+• Variables: Pedazo de meoria reservado para almacenar un valor.
+• Funciones: Tienen la posibilidad de tener parámetros o argumentos, que son
+  variables que modifican su comportamiento.
+• Mixin: Es una clase cuya finalidad es ofrecer una funcionalidad que pueda ser
+  reutilizada en otras clases pero que no está pensada para usarse de forma autónoma.
+
+¿Por qué utilizarlos?
+
+• Te salva tiempo y dinero al tener la opción de rehusar código.
+• Tener un código más sencillo de mantener y editar.
+• Modularizar nuestros proyectos de una forma lógica y sencilla.

@@ -1,0 +1,17 @@
+Las metodologías para estructurar código son sistemas preestablecidos, formales 
+y bien documentados, que te ayudan a escribir y organizar código mantenible y 
+escalable en sistemas grandes y complejos.
+
+Ventajas:
+
+• Evitar redundancia al momento de crear componentes escalables y reutilizables.
+• Evitar el mal uso de propiedades como !important.
+• Solucionar problemas de manejo en sistemas grandes y complejos.
+
+Ranking metodologías:
+
+• BEM (Bloque, elemento, modificador)
+• Atomic CSS
+• OOCSS (CSS orientado a objetos)
+• SMACSS
+• ITCSS (CSS de triángulo invertido)
